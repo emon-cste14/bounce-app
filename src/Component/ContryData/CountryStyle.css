@@ -1,0 +1,44 @@
+
+.country-style{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding: 50px;
+    width: 70%;
+    height: auto;
+}
+.country-style img{
+    width: 250px;
+    height: 200px;
+}
+.country-display{
+    display: flex;
+
+}
+.cart-style {
+    background-color: lightgray;
+    height: 500px;
+    width: 30%;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.cart-style h1{
+    text-align: center;
+    border-bottom: 1px solid lightcoral;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    color: black;
+    border: black;
+    cursor: pointer;
+    margin: 20px;
+}
+.btn:hover{
+    color: white;
+    transform: translateY(-10px);
+    background-color: blueviolet;
+}
